@@ -19,7 +19,7 @@ function Hero({}: Props) {
       <BackgroundCircles />
       <Image
         className="rounded-full relative mx-auto object-cover"
-        src="../profile.jpg"
+        src="/profile.jpg"
         width="100"
         height="100"
         alt=""

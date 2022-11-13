@@ -32,5 +32,4 @@ export default WorkExperience;
 
 
 
-{/* <div className="w-full flex space-x-5 p-1 snap-x snap-mandatory items-center 
-scrollbar-track-gray-400/20 scrollbar-thumb-black scrollbar-thin"> */}
+// h-screen flex flex-col relative text-center max-w-7xl px-10 justify-evenly mx-auto items-center
