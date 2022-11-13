@@ -23,7 +23,7 @@ function Contact({}: Props) {
         Conact
       </h3>
       <div className="flex flex-col space-y-10 sm:p-8 md:p-8">
-        <h4 className="text-4xl font-semibold text-center">
+        <h4 className=" sm:text-lg md:text-lg lg:text-lg text-4xl font-semibold text-center">
           Feel free to conact me <br></br>
           <span className="underline decoration-blue-500">
             Lets Work Together
@@ -49,9 +49,9 @@ function Contact({}: Props) {
 
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className="flex flex-col space-y-2 w-fit mx-auto "
+          className="flex flex-col space-y-2 w-fit mx-auto"
         >
-          <div className="flex space-x-2">
+          <div className="flex space-x-1">
             <input
               {...register("name")}
               placeholder="Name"
