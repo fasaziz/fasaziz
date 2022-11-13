@@ -31,10 +31,10 @@ function Contact({}: Props) {
         </h4>
 
         <div className="space-y-10">
-          <div className="flex items-center space-x-5 justify-center">
+          {/* <div className="flex items-center space-x-5 justify-center">
             <PhoneIcon className="text-blue-500 h-7 w-7 animate-pulse" />
             <p className="text-2xl">+00000</p>
-          </div>
+          </div> */}
 
           <div className="flex items-center space-x-5 justify-center">
             <MapPinIcon className="text-blue-500 h-7 w-7 animate-pulse" />
@@ -43,7 +43,7 @@ function Contact({}: Props) {
 
           <div className="flex items-center space-x-5 justify-center">
             <EnvelopeIcon className="text-blue-500 h-7 w-7 animate-pulse" />
-            <p className="text-2xl">+00000</p>
+            <p className="text-2xl">info@fasaziz.com</p>
           </div>
         </div>
 

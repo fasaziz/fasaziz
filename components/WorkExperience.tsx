@@ -1,6 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
-import ExperienceCard from "./ExperienceCard";
+import CotExperienceCard from "./CotExperienceCard";
+import CgiExperienceCard from "./CgiExperienceCard";
+import MemsetExperienceCard from "./MemsetExperienceCard";
+
 
 type Props = {};
 
@@ -17,9 +20,9 @@ function WorkExperience({}: Props) {
       </h3>
       <div className="w-full flex space-x-5 p-1 snap-x snap-mandatory items-center 
        scrollbar-track-gray-400/20 scrollbar-thumb-black scrollbar-thin">
-        <ExperienceCard />
-        <ExperienceCard />
-        <ExperienceCard />
+        <CotExperienceCard />
+        <CgiExperienceCard />
+        <MemsetExperienceCard />
       </div>
     </motion.div>
   );
