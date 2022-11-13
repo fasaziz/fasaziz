@@ -22,7 +22,7 @@ function ExperienceCard({}: Props) {
       <div className="px-5 md:px-10">
         <h4 className="text-4xl font-light">DevOps Engineer</h4>
         <p className="font-bold text-2xl mt-1 text-left">Capital On Tap</p>
-        <div className=" flex space-x-3 my-2">
+        {/* <div className=" flex space-x-3 my-2">
           <Image
             className="h-10 w-10 rounded-full"
             src="/../public/nginx.jpg"
@@ -46,9 +46,7 @@ function ExperienceCard({}: Props) {
             width="7"
             height="7"
           />
-
-          {/* tech used */}
-        </div>
+        </div> */}
         <p className="uppercase py-5 text-left">Started... Ended....</p>
 
         <ul className="list-disc space-y-4 ml-5 text-sm text-left">
