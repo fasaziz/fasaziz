@@ -28,7 +28,7 @@ function MemsetExperienceCard({}: Props) {
           Working with cloud products – Maintaining customer servers:
         </p>
 
-        <ul className="text-sm text-left px-2 pt-1 list-disc">
+        {/* <ul className="text-sm text-left px-2 pt-1 list-disc">
           <li>Provided 1st, 2nd and 3rd line support for customers</li>
           <li>Responding to real time problems with the use of Nagios</li>
           <li>Responsible for Server setups and Disk swaps</li>
@@ -43,7 +43,7 @@ function MemsetExperienceCard({}: Props) {
           </li>
           <li>Responsible for DNS/Apache/Nginx/MySQL Configurations</li>
           <li>Responsible for maintaining backups (R1Soft)</li>
-        </ul>
+        </ul> */}
 
         <p className="py-2 text-sm text-left">
           Day to day activities include monitoring alerts with the use of

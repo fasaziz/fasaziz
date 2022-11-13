@@ -32,7 +32,7 @@ function CgiExperienceCard({}: Props) {
           theatres and at sea.
         </p>
 
-        <ul className="text-sm text-left px-2 pt-1 list-disc">
+        {/* <ul className="text-sm text-left px-2 pt-1 list-disc">
           <li>
             Maintaining 6 hypervisors Windows Server 2012 r2, Domain
             Controllers, Hyper V Manager, Failover Cluster, 50+ Virtual Machines
@@ -41,7 +41,7 @@ function CgiExperienceCard({}: Props) {
           <li>Configuring/building Linux/Windows VM’s and Physical Servers.</li>
           <li>Database Migrations</li>
           <li>Leading and Teaching team members/Scrum Master Role</li>
-        </ul>
+        </ul> */}
 
         <p className="py-2 text-sm text-left">
           Working in an agile environment enables me to learn on the go and pick

@@ -34,14 +34,14 @@ function CotExperienceCard({}: Props) {
           Development, Pre-live and finally Production/Production DR to UK/US/ES
         </p>
 
-        <ul className="text-sm text-left px-2 pt-1 list-disc">
+        {/* <ul className="text-sm text-left px-2 pt-1 list-disc">
           <li>Azure DevOps, TeamCity and Octopus Deploy</li>
           <li>Kubernetes</li>
           <li>YAML CI/CD templates</li>
           <li>Ansible Playbooks</li>
           <li>Terraform/Pulumi (IAC)</li>
           <li>DataDog</li>
-        </ul>
+        </ul> */}
 
         <p className="py-2 text-sm text-left">
           Some Projects: Migrating from Azure Application Gateways to NGINX Plus
