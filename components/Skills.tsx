@@ -18,7 +18,7 @@ export default function Skills({}: Props) {
       <h3 className="absolute top-36 uppercase tracking-[3px] text-sm">
         Hover over a skill for current proficiency
       </h3>
-      <div className="grid grid-cols-4 sm:gap-1 sm:pt-36 lg:gap-1 lg:pt-36">
+      <div className="grid grid-cols-4 sm:gap-1 sm:pt-36 md:gap-1 md:pt-36">
         <Skill url="../azure.png" skill="95" />
         <Skill url="../aws.png" skill="70" />
         <Skill url="../terraform.png" skill="95" />

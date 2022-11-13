@@ -6,7 +6,7 @@ type Props = {};
 
 function CotExperienceCard({}: Props) {
   return (
-    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center p-10">
+    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 sm:w-[400px] lg:w-[400px] w-[500px] md:w-[600px] xl:w-[900px] snap-center p-10">
       <motion.img
         initial={{
           y: -100,
@@ -15,7 +15,7 @@ function CotExperienceCard({}: Props) {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 3.5 }}
         viewport={{ once: true }}
-        className="h-32 w-32 rounded-full xl:h-[200px] xl:w-[200px] object-cover object-center"
+        className="sm:h-20 sm:w-20 md:h-20 md:w-20 lg:h-[100px] lg:w-[100px] h-32 w-32 rounded-full xl:h-[200px] xl:w-[200px] object-cover object-center "
         src="../cot.png"
         alt=""
       />

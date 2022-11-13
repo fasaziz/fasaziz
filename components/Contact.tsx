@@ -22,7 +22,7 @@ function Contact({}: Props) {
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         Conact
       </h3>
-      <div className="flex flex-col space-y-10">
+      <div className="flex flex-col space-y-10 sm:p-8 md:p-8">
         <h4 className="text-4xl font-semibold text-center">
           Feel free to conact me <br></br>
           <span className="underline decoration-blue-500">
