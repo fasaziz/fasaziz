@@ -19,16 +19,11 @@ function About({}: Props) {
         background
       </h1>
       <p className="text-lg">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore placeat
-        consectetur repellendus est quisquam, nostrum odit aliquid pariatur ex
-        quo magnam quasi. Provident, cupiditate nesciunt iste accusamus
-        molestiae ex magni. Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Tempore placeat consectetur repellendus est quisquam, nostrum odit
-        aliquid pariatur ex quo magnam quasi. Provident, cupiditate nesciunt
-        iste accusamus molestiae ex magni. Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Tempore placeat consectetur repellendus
-        est quisquam, nostrum odit aliquid pariatur ex quo magnam quasi.
-        Provident, cupiditate nesciunt iste accusamus molestiae ex magni.
+        Passionate DevOps Engineer. Firm believer that anything and everything
+        can be automated. Love to learn new technologies especially cloud
+        related. The tech space is changing so rapidly so I’m always on the look
+        out of what’s coming up and how that can benefit me and the project that
+        I'm working on.
       </p>
     </motion.div>
   );

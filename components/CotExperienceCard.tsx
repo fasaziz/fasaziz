@@ -6,7 +6,7 @@ type Props = {};
 
 function CotExperienceCard({}: Props) {
   return (
-    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px xl:w-[900px] snap-center p-10">
+    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center p-10">
       <motion.img
         initial={{
           y: -100,
