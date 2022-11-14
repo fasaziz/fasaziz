@@ -18,7 +18,7 @@ function WorkExperience({}: Props) {
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         Expirence
       </h3>
-      <div className="w-full flex space-x-5 p-1 snap-x snap-mandatory items-center 
+      <div className="w-full flex space-x-5 p-1 items-center 
        scrollbar-track-gray-400/20 scrollbar-thumb-black scrollbar-thin">
         <CotExperienceCard />
         <CgiExperienceCard />

@@ -23,7 +23,7 @@ function Contact({}: Props) {
         Conact
       </h3>
       <div className="flex flex-col space-y-10 sm:p-8 md:p-8">
-        <h4 className=" sm:text-lg md:text-sm lg:text-sm text-4xl font-semibold text-center">
+        <h4 className=" sm:text-sm md:text-sm lg:text-lg text-4xl font-semibold text-center">
           Feel free to conact me <br></br>
           <span className="underline decoration-blue-500">
             Lets Work Together
