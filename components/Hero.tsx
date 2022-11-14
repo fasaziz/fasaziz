@@ -22,7 +22,7 @@ function Hero({}: Props) {
         src="/profile.jpg"
         width="100"
         height="100"
-        alt=""
+        alt="profile"
       />
       <div className="z-20">
         <h2 className="text-small uppercase text-gray-500 pb-2 tracking-[15px]">
@@ -33,7 +33,7 @@ function Hero({}: Props) {
             Hi, I'm <span className="text-blue-700"> Fas</span>
           </h1>
         </div>
-        <p className="py-4 text-gray-600 m-auto">
+        <p className="py-4 text-gray-600 m-auto text-[14px] sm:text-base text-center">
           Specialisng in Architecting, Automating, and Maintaining cloud
           solutions. Welcome to my site!
         </p>

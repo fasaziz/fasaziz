@@ -5,7 +5,7 @@ type Props = {};
 
 function CgiExperienceCard({}: Props) {
   return (
-    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 sm:w-[400px] lg:w-[400px] w-[500px] md:w-[600px xl:w-[900px] snap-center p-10">
+    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 sm:w-[400px] lg:w-[600px] w-[500px] md:w-[600px] xl:w-[900px] snap-center px-5 lg:p-10">
       <motion.img
         initial={{
           y: -100,
@@ -14,17 +14,19 @@ function CgiExperienceCard({}: Props) {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 3.5 }}
         viewport={{ once: true }}
-        className="sm:h-20 sm:w-20 md:h-20 md:w-20 lg:h-[100px] lg:w-[100px] xl:h-[200px] xl:w-[200px] object-cover object-center"
+        className=" h-32 w-32 sm:h-20 sm:w-20 md:h-20 md:w-20 lg:h-[100px] lg:w-[100px] xl:h-[200px] xl:w-[200px] object-cover object-center"
         src="../CGI.png"
         alt=""
       />
-      <div className="px-5 md:px-10">
-        <h4 className="text-4xl font-light">Infrastructure Engineer</h4>
+      <div className="px-5 lg:px-10">
+        <h4 className="text-2xl sm:text-4xl font-light">
+          Infrastructure Engineer
+        </h4>
         <p className="font-bold text-2xl mt-1 text-left">CGI (MoD Project)</p>
 
         <p className="uppercase py-5 text-left">November 2019 - Apr 2021 </p>
 
-        <p className="py-2 text-sm text-left">
+        <p className="py-2 text-sm text-left max-w-[320px] sm:max-w-full">
           Working on DMICP (Defence Medical Information Capability Programme).
           Managing and sustaining the infrastructure where the MOD (Ministry of
           Defence) can access medical and dental health records, a system
@@ -43,7 +45,7 @@ function CgiExperienceCard({}: Props) {
           <li>Leading and Teaching team members/Scrum Master Role</li>
         </ul> */}
 
-        <p className="py-2 text-sm text-left">
+        <p className="py-2 text-sm text-left max-w-[320px] sm:max-w-full">
           Working in an agile environment enables me to learn on the go and pick
           up different skills in order to complete tasks. Ensuring that
           tasks/bugs get completed within the time frame so they can be tested

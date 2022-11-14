@@ -5,7 +5,7 @@ type Props = {};
 
 function MemsetExperienceCard({}: Props) {
   return (
-    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 sm:w-[400px] lg:w-[400px] w-[500px] md:w-[600px xl:w-[900px] snap-center p-10">
+    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 sm:w-[500px] lg:w-[600px] w-[500px] md:w-[600px] xl:w-[900px] snap-center  pl-16 pr-5 sm:px-5 lg:p-10">
       <motion.img
         initial={{
           y: -100,
@@ -19,7 +19,9 @@ function MemsetExperienceCard({}: Props) {
         alt=""
       />
       <div className="px-5 md:px-10">
-        <h4 className="text-4xl font-light">Linux/Windows Sysadmin</h4>
+        <h4 className="text-2xl sm:text-4xl font-light">
+          Linux/Windows Sysadmin
+        </h4>
         <p className="font-bold text-2xl mt-1 text-left">Memset</p>
 
         <p className="uppercase py-5 text-left">Sept 2018 - Oct 2019 </p>
@@ -45,7 +47,7 @@ function MemsetExperienceCard({}: Props) {
           <li>Responsible for maintaining backups (R1Soft)</li>
         </ul> */}
 
-        <p className="py-2 text-sm text-left">
+        <p className="py-2 text-sm text-left max-w-[320px] sm:max-w-full">
           Day to day activities include monitoring alerts with the use of
           Nagios, any servers that are down, disks that are failing. Responding
           to emergency calls and tickets from customers. Reviewing policies
