@@ -59,19 +59,16 @@ function Header({}: Props) {
         }}
         className="flex flex-row items-center cursor-pointer"
       >
-
+        <Link href="#contact">
           <SocialIcon
             className="cursor-pointer"
             network="email"
             fgColor="gray"
             bgColor="transparent"
-
           />
-
-        <Link href="#contact">
-        <p className="uppercase hidden md:inline-flex text-sm text-black">
-          Get In touch
-        </p>
+          <p className="uppercase hidden md:inline-flex text-sm text-black">
+            Get In touch
+          </p>
         </Link>
       </motion.div>
     </header>
@@ -79,4 +76,3 @@ function Header({}: Props) {
 }
 
 export default Header;
-
