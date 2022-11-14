@@ -16,7 +16,7 @@ function Hero({}: Props) {
 
   return (
     <div className="h-screen flex-col flex items-center justify-center space-y-8 text-center overflow-hidden">
-      <BackgroundCircles />
+      {/* <BackgroundCircles /> */}
       <Image
         className="rounded-full relative mx-auto object-cover"
         src="/profile.jpg"

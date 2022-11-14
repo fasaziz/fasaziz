@@ -20,10 +20,10 @@ function About({}: Props) {
       </h1>
       <p className="text-base sm:text-lg my-10 sm:my-0">
         Passionate DevOps Engineer. Firm believer that anything and everything
-        can be automated. Love to learn new technologies especially cloud
-        related. The tech space is changing so rapidly so I’m always on the look
-        out of what’s coming up and how that can benefit me and the project that
-        I'm working on.
+        can be automated. Consistently seeking out new cloud related
+        technologies. The tech space is rapidly changing and am always on the
+        look out of what’s coming up and how that can benefit me and the project
+        that I'm working on.
       </p>
     </motion.div>
   );
