@@ -10,6 +10,8 @@ export default function Skills({}: Props) {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 3.5 }}
+      viewport={{ once: true }}
+
       className="flex relative flex-col text-center min-h-screen mx-auto justify-center items-center"
     >
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl ">
@@ -18,7 +20,7 @@ export default function Skills({}: Props) {
       <h3 className="absolute top-36 uppercase tracking-[3px] text-sm">
         Hover over a skill for current proficiency
       </h3>
-      <div className="grid grid-cols-4 sm:gap-1 sm:pt-36 md:gap-1 md:pt-36">
+      <div className="grid grid-cols-4 md:grid-cols-7 sm:gap-1 sm:pt-36 md:gap-1 md:pt-64">
         <Skill url="../azure.png" skill="95" />
         <Skill url="../aws.png" skill="70" />
         <Skill url="../terraform.png" skill="95" />
@@ -43,3 +45,4 @@ export default function Skills({}: Props) {
     </motion.div>
   );
 }
+

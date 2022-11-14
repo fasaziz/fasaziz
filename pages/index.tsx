@@ -16,22 +16,22 @@ export default function Home() {
         <title>Fas' DevOps Engineer</title>
       </Head>
       <Header />
-      <section id="hero" className="snap-start">
+      <section id="hero">
         <Hero />
       </section>
-      <section id="about" className="snap-center">
+      <section id="about">
         <About />
       </section>
-      <section id = "expirence" className="snap-center">
+      <section id = "expirence">
         <WorkExperience />
       </section>
-      <section id="skills" className="snap-start">
+      <section id="skills">
         <Skills />
       </section>
       {/* <section id="projects" className="snap-start">
         <Projects />
       </section> */}
-      <section id="contact" className="snap-start">
+      <section id="contact">
         <Contact />
       </section>
     </div>
