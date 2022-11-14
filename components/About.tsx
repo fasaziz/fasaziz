@@ -19,11 +19,13 @@ function About({}: Props) {
         background
       </h1>
       <p className="text-base sm:text-lg my-10 sm:my-0">
-        Passionate DevOps Engineer. Firm believer that anything and everything
-        can be automated. Consistently seeking out new cloud related
-        technologies. The tech space is rapidly changing and am always on the
-        look out of what’s coming up and how that can benefit me and the project
-        that I'm working on.
+        Experienced Cloud DevOps engineer with a genuine passion for technology.
+        Happiest when using DevOps tools and processes to help organisations
+        realise the benefits of automation and process improvements. Firm
+        believer that anything and everything can be automated. The tech space
+        is rapidly transforming and I am continuously horizon scanning for new
+        cloud-based technologies. This will benefit my technical skills
+        alongside any Cloud related projects I am working on.
       </p>
     </motion.div>
   );

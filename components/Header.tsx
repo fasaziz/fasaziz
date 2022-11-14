@@ -59,13 +59,11 @@ function Header({}: Props) {
         }}
         className="flex flex-row items-center cursor-pointer"
       >
-
           <SocialIcon
             className="cursor-pointer"
             network="email"
             fgColor="gray"
             bgColor="transparent"
-
           />
 
         <Link href="#contact">

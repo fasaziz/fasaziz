@@ -24,7 +24,7 @@ function Contact({}: Props) {
       </h3>
       <div className="flex flex-col space-y-10 sm:p-8 md:p-8">
         <h4 className="sm:text-sm md:text-sm lg:text-lg text-3xl font-semibold text-center">
-          Feel free to conact me <br></br>
+          Feel free to contact me <br></br>
           <span className="underline decoration-blue-500">
             Lets Work Together
           </span>

@@ -11,7 +11,7 @@ function Hero({}: Props) {
   const [text, count] = useTypewriter({
     words: ["evOps Engineer"],
     loop: false,
-    delaySpeed: 2000,
+    delaySpeed: 9000,
   });
 
   return (
@@ -30,12 +30,12 @@ function Hero({}: Props) {
         </h2>
         <div className="text-3xl font-bold">
           <h1>
-            Hi, I'm <span className="text-blue-700"> Fas</span>
+            <span className="text-blue-700">Fas Aziz</span>
           </h1>
         </div>
         <p className="py-4 text-gray-600 m-auto text-[14px] sm:text-base text-center">
-          Specialisng in Architecting, Automating, and Maintaining cloud
-          solutions. Welcome to my site!
+          Specialising in Architecting, Automating, and Maintaining Cloud
+          Solutions
         </p>
         <div>
           <Link href="#about">
