@@ -15,7 +15,7 @@ function WorkExperience({}: Props) {
       className="sm:h-screen flex flex-col relative text-center max-w-7xl px-4 sm:px-10 justify-evenly mx-auto items-center"
     >
       <h3 className="sm:absolute sm:top-24 lg:top-10 uppercase tracking-[20px] text-gray-500 text-2xl mb-6 sm:mb-0">
-        Expirence
+      Experience
       </h3>
       <div
         className="w-full flex space-x-5 p-1 items-center snap-x snap-mandatory
