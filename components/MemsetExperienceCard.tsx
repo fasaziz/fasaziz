@@ -20,7 +20,7 @@ function MemsetExperienceCard({}: Props) {
       />
       <div className="px-5 md:px-10">
         <h4 className="text-2xl sm:text-4xl font-light">
-          Linux/Windows Sysadmin
+          Linux/Windows Sys Admin
         </h4>
         <p className="font-bold text-2xl mt-1 text-left">Memset</p>
 
