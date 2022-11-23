@@ -22,7 +22,7 @@ function CgiExperienceCard({}: Props) {
         <h4 className="text-2xl sm:text-4xl font-light">
           Infrastructure Engineer
         </h4>
-        <p className="font-bold text-2xl mt-1 text-left">CGI (MoD Project)</p>
+        <p className="font-bold text-2xl mt-1 text-left">CGI (Defence Project)</p>
 
         <p className="uppercase py-5 text-left">November 2019 - Apr 2021 </p>
 
