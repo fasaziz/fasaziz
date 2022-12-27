@@ -2,6 +2,7 @@ import React from "react";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { AiFillGithub } from "react-icons/ai";
 
 type Props = {};
 
@@ -29,6 +30,9 @@ function Header({}: Props) {
           fgColor="blue"
           bgColor="transparent"
         />
+        <Link href="https://github.com/fasaziz">
+          <AiFillGithub size={32} />
+        </Link>
         {/* <SocialIcon
           className="cursor-pointer"
           //   url="https://gmail.com"
@@ -59,17 +63,17 @@ function Header({}: Props) {
         }}
         className="flex flex-row items-center cursor-pointer"
       >
-          <SocialIcon
-            className="cursor-pointer"
-            network="email"
-            fgColor="gray"
-            bgColor="transparent"
-          />
+        <SocialIcon
+          className="cursor-pointer"
+          network="email"
+          fgColor="gray"
+          bgColor="transparent"
+        />
 
         <Link href="#contact">
-        <p className="uppercase hidden md:inline-flex text-sm text-black">
-          Get In touch
-        </p>
+          <p className="uppercase hidden md:inline-flex text-sm text-black">
+            Get In touch
+          </p>
         </Link>
       </motion.div>
     </header>
@@ -77,4 +81,3 @@ function Header({}: Props) {
 }
 
 export default Header;
-
