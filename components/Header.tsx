@@ -30,9 +30,9 @@ function Header({}: Props) {
           fgColor="blue"
           bgColor="transparent"
         />
-        <Link href="https://github.com/fasaziz">
+        {/* <Link href="https://github.com/fasaziz">
           <AiFillGithub size={32} />
-        </Link>
+        </Link> */}
         {/* <SocialIcon
           className="cursor-pointer"
           //   url="https://gmail.com"
