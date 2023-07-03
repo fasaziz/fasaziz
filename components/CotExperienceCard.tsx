@@ -23,7 +23,7 @@ function CotExperienceCard({}: Props) {
         <h4 className="text-2xl sm:text-4xl font-light">DevOps Engineer</h4>
         <p className="font-bold text-2xl mt-1 text-left">Capital On Tap</p>
 
-        <p className="uppercase py-5 text-left">Apr 2021 - Present</p>
+        <p className="uppercase py-5 text-left">Apr 2021 - May 2023</p>
 
         <p className="text-sm text-left max-w-[320px] sm:max-w-full">
           Maintaining and deploying cloud services to Azure using CI/CD. Using
