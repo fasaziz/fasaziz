@@ -19,33 +19,27 @@ function CotExperienceCard({}: Props) {
         <p className="uppercase text-sm text-accent-400 tracking-wide py-3">Apr 2021 - May 2023</p>
 
         <p className="text-sm text-ink-400">
-          Maintaining and deploying cloud services to Azure using CI/CD. Using
-          Terraform as Infrastructure as code. Using technologies such as Azure
-          DevOps, Team City and Octopus Deploy. Azure DevOps for repos, pull
-          requests and YAML pipelines for deployments. Team City for creating
-          artifacts and deploying these via Octopus for CD. Deploying to
-          Development, Pre-live and finally Production/Production DR to UK/US/ES
+          Maintaining and deploying cloud services to Azure using CI/CD, with
+          Terraform as Infrastructure as Code.
         </p>
 
-        {/* <ul className="text-sm text-left px-2 pt-1 list-disc">
-          <li>Azure DevOps, TeamCity and Octopus Deploy</li>
-          <li>Kubernetes</li>
-          <li>YAML CI/CD templates</li>
-          <li>Ansible Playbooks</li>
-          <li>Terraform/Pulumi (IAC)</li>
-          <li>DataDog</li>
-        </ul> */}
+        <p className="py-2 text-sm text-ink-400">
+          Used Azure DevOps, Team City and Octopus Deploy for repos, pull
+          requests, artifact creation and deployment, deploying to
+          Development, Pre-live and finally Production/Production DR across
+          UK/US/ES.
+        </p>
 
         <p className="py-2 text-sm text-ink-400">
-          Some Projects: Migrating from Azure Application Gateways to NGINX Plus
-          instances: This involved creating Terraform Modules for NGINX VMs,
-          bash scripts to bootstrap the VMs and to install relevant software
-          such as NGINX, DataDog, ACME, configure default NGINX config. This
-          also involved deploying new VNETS, peering, VPN connections etc.
-          Migrating from SQL VM to SQL MI: This involved work around Kerberos
-          Authentication to SQL MI (Large investigation work and
-          troubleshooting). Creating Terraform modules which creates SQL MI and
-          the relevant pre-requirements such as VNETS/Subnets, NGS&apos;s, UDR&apos;s etc.
+          Migrated from Azure Application Gateways to NGINX Plus, including
+          Terraform modules and bash scripts to bootstrap NGINX, DataDog and
+          ACME.
+        </p>
+
+        <p className="py-2 text-sm text-ink-400">
+          Migrated a SQL VM to SQL MI, working through Kerberos
+          authentication and the supporting networking prerequisites such
+          as VNETs/Subnets, NGS&apos;s and UDR&apos;s.
         </p>
       </div>
     </article>

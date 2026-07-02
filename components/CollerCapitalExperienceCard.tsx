@@ -25,25 +25,37 @@ function CollerCapitalExperienceCard({}: Props) {
         <p className="py-2 text-sm text-ink-400">
           Architected and established an enterprise AI platform on Azure to
           enable secure, governed adoption of generative AI across Coller
-          Capital, designing a centralised API and MCP platform using Azure
-          API Management so internal systems, data sources and services can
-          be securely exposed as reusable AI tools for Claude Enterprise.
+          Capital.
+        </p>
+
+        <p className="py-2 text-sm text-ink-400">
+          Designed a centralised API and MCP platform using Azure API
+          Management, exposing internal systems and data sources as
+          reusable AI tools for Claude Enterprise.
         </p>
 
         <p className="py-2 text-sm text-ink-400">
           Defined platform standards for AI application delivery,
-          authentication, APIOps and self service onboarding. Designed and
-          implemented an isolated AI sandbox platform using Azure DevTest
-          Labs for rapid provisioning of ephemeral, pre-configured Windows 11
-          development environments, fully automated and secured through
-          controlled network isolation. Led the migration of Azure DevOps
-          repositories and pipelines to GitHub Actions, designing reusable
-          CI/CD workflow templates for .NET, containerised applications and
-          Terraform projects, and implementing enterprise guardrails across
-          GitHub EMU. Architected a Hub and Spoke network topology
-          integrated with CATO SASE, and automated Azure Landing Zone and
-          Azure Policy deployments using Terraform aligned with Azure CAF
-          best practices.
+          authentication, APIOps and self service onboarding.
+        </p>
+
+        <p className="py-2 text-sm text-ink-400">
+          Designed and implemented an isolated AI sandbox platform using
+          Azure DevTest Labs for rapid, secure provisioning of ephemeral,
+          pre-configured Windows 11 development environments.
+        </p>
+
+        <p className="py-2 text-sm text-ink-400">
+          Led the migration of Azure DevOps repositories and pipelines to
+          GitHub Actions, building reusable CI/CD workflow templates and
+          enterprise guardrails across GitHub EMU.
+        </p>
+
+        <p className="py-2 text-sm text-ink-400">
+          Architected a Hub and Spoke network topology integrated with
+          CATO SASE, and automated Azure Landing Zone and Azure Policy
+          deployments using Terraform aligned with Azure CAF best
+          practices.
         </p>
       </div>
     </article>

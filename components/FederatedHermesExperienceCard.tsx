@@ -32,12 +32,20 @@ function FederatedHermesExperienceCard({}: Props) {
         </p>
 
         <p className="py-2 text-sm text-ink-400">
-          Implemented and maintained Azure vWAN and Azure Firewalls, Azure
-          IaaS including peerings and private endpoints, and Terraform IaC
-          with bespoke modules. Migrated Azure DevOps Release Pipelines to
-          YAML pipelines, and migrated IIS, SSIS and DACPAC Octopus Deploy
-          pipelines to Azure DevOps YAML pipelines. Mentored infrastructure
-          and network engineers on DevOps practices and IaC adoption.
+          Implemented and maintained Azure vWAN and Azure Firewalls, and
+          delivered Azure IaaS including peerings and private endpoints,
+          with Terraform IaC using bespoke modules.
+        </p>
+
+        <p className="py-2 text-sm text-ink-400">
+          Migrated Azure DevOps Release Pipelines to YAML pipelines, and
+          migrated IIS, SSIS and DACPAC Octopus Deploy pipelines to Azure
+          DevOps YAML pipelines.
+        </p>
+
+        <p className="py-2 text-sm text-ink-400">
+          Mentored infrastructure and network engineers on DevOps practices
+          and IaC adoption.
         </p>
       </div>
     </article>

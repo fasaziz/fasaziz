@@ -26,10 +26,12 @@ function Hero({}: Props) {
         height="100"
         alt="profile"
       />
-      <div className="z-20">
-        <h2 className="text-small uppercase text-accent-400 pb-2 tracking-[15px]">
-          {text}
-        </h2>
+      <div className="z-20 max-w-md mx-auto">
+        <div className="flex justify-center">
+          <h2 className="h-5 text-sm uppercase text-accent-400 pb-2 tracking-[6px] whitespace-nowrap">
+            {text}
+          </h2>
+        </div>
         <div className="text-3xl font-bold">
           <h1>
             <span className="text-ink-200">Fas Aziz</span>
