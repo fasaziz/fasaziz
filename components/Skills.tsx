@@ -9,11 +9,11 @@ const skillCategories = [
   },
   {
     title: "AI Platform Engineering",
-    items: ["Claude Enterprise", "MCP", "Azure API Management", "APIOps", "Azure DevTest Labs"],
+    items: ["Claude Enterprise", "MCP", "Azure API Management", "APIOps"],
   },
   {
     title: "Infrastructure as Code & CI/CD",
-    items: ["Terraform", "Ansible", "GitHub Actions", "Azure DevOps", "Octopus Deploy", "TeamCity", "Kubernetes", "Docker", "Helm"],
+    items: ["Terraform", "Ansible", "GitHub Actions", "Azure DevOps", "Octopus Deploy", "TeamCity", "Kubernetes", "Docker", "Helm", "Harness"],
   },
   {
     title: "Scripting & Systems Administration",
@@ -21,7 +21,7 @@ const skillCategories = [
   },
   {
     title: "Observability & Collaboration",
-    items: ["Datadog", "Jira", "NGINX", "Azure DevOps", "Halo ITSM"],
+    items: ["Datadog", "Jira", "NGINX", "Halo ITSM"],
   },
 ];
 
