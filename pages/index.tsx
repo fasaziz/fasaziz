@@ -8,30 +8,27 @@ import WorkExperience from "../components/WorkExperience";
 
 export default function Home() {
   return (
-    <div
-      className="sm:snap-y h-screen snap-mandatory overflow-y-scroll overflow-x-hidden z-0
-    scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-black scroll-m-0"
-    >
+    <div className="bg-ink-950 text-ink-200">
       <Head>
-        <title>Fas' DevOps Engineer</title>
+        <title>Fas&apos; Platform Engineer</title>
       </Head>
       <Header />
-      <section id="hero" className="sm:snap-start">
+      <section id="hero">
         <Hero />
       </section>
-      <section id="about" className="sm:snap-center">
+      <section id="about" className="border-t border-ink-800">
         <About />
       </section>
-      <section id="expirence" className="sm:snap-center">
+      <section id="expirence" className="border-t border-ink-800">
         <WorkExperience />
       </section>
-      <section id="skills" className="sm:snap-center">
+      <section id="skills" className="border-t border-ink-800">
         <Skills />
       </section>
-      {/* <section id="projects" className="snap-start">
+      {/* <section id="projects">
         <Projects />
       </section> */}
-      <section id="contact" className="sm:snap-start">
+      <section id="contact" className="border-t border-ink-800">
         <Contact />
       </section>
     </div>

@@ -9,33 +9,35 @@ type Props = {};
 
 function Hero({}: Props) {
   const [text, count] = useTypewriter({
-    words: ["evOps Engineer"],
+    words: ["Platform Engineer", "AI Platform Engineer"],
     loop: false,
-    delaySpeed: 9000,
+    typeSpeed: 40,
+    deleteSpeed: 30,
+    delaySpeed: 2000,
   });
 
   return (
-    <div className="h-screen flex-col flex items-center justify-center space-y-8 text-center overflow-hidden">
-      {/* <BackgroundCircles /> */}
+    <div className="relative flex-col flex items-center justify-center space-y-8 text-center overflow-hidden py-24 sm:py-32">
+      <BackgroundCircles />
       <Image
-        className="rounded-full relative mx-auto object-cover"
+        className="rounded-full relative mx-auto object-cover border-2 border-accent-400/40"
         src="/profile.jpg"
         width="100"
         height="100"
         alt="profile"
       />
       <div className="z-20">
-        <h2 className="text-small uppercase text-gray-500 pb-2 tracking-[15px]">
-          D{text}
+        <h2 className="text-small uppercase text-accent-400 pb-2 tracking-[15px]">
+          {text}
         </h2>
         <div className="text-3xl font-bold">
           <h1>
-            <span className="text-blue-700">Fas Aziz</span>
+            <span className="text-ink-200">Fas Aziz</span>
           </h1>
         </div>
-        <p className="py-4 text-gray-600 m-auto text-[14px] sm:text-base text-center">
-          Specialising in Architecting, Automating, and Maintaining Cloud
-          Solutions
+        <p className="py-4 text-ink-400 m-auto text-[14px] sm:text-base text-center">
+          Specialising in Cloud Infrastructure, API/MCP Integrations, and
+          Secure Enterprise AI Adoption
         </p>
         <div>
           <Link href="#about">
