@@ -9,8 +9,7 @@ function About({}: Props) {
         About
       </h3>
       <h1 className="text-4xl font-semibold text-ink-200">
-        Here is a <span className="underline decoration-accent-400">little</span>{" "}
-        background
+        Here is a little background
       </h1>
       <p className="text-base sm:text-lg mt-6 text-ink-400">
         Platform engineer with 7+ years in cloud infrastructure and DevOps.
